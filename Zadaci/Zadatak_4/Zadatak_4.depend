@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1714413940 source:d:\fet_2023\op\parcijala_2_op\zadaci\zadatak_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
