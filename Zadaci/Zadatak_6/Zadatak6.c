@@ -3,14 +3,14 @@
 int main(){
   int input, average, biggest = 0, sum = 0, i = 0;
   do{
-  	printf("Unesite broj: ");
-  	scanf("%d", &input);
-  	if(input % 2 != 0){
-  	  sum += input;
+    printf("Unesite broj: ");
+    scanf("%d", &input);
+    if(input % 2 != 0){
+      sum += input;
       if(input > biggest)
         biggest = input;
-    i++;    
-	}
+      i++;    
+    }
   } while(input != 0);
   if(sum > 0){
     average = sum / i;
