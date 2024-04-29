@@ -18,8 +18,8 @@ int main()
     for(int i = 1; i<start+dana; i++){
         if(i<start) printf("    ");
         else printf(" %2d ", i-start+1);
-        if(i%7==0){ printf("\n");
-            }
+        if(i%7==0) printf("\n");
+        	
     }
     return 0;
 }

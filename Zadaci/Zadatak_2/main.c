@@ -15,7 +15,7 @@ int main()
             printf(" %d x%3.d = %3.d,", i, k , i*k);
 
         }
-        printf("\b \b\n");// \b escape sequence pomjera kursor lijevo i ispisuje prazno mjesto reko  zadnjeg zareza u redu
+        printf("\b \b\n");// \b escape sequence pomjera kursor lijevo i ispisuje prazno mjesto preko  zadnjeg zareza u redu
     }
 
     return 0;

@@ -1,3 +1,4 @@
+// Osnovi Programiranja , Parcijala 2 Vjezba2/Zadatak6 Mirsad Masic
 #include<stdio.h>
 
 int main(){
