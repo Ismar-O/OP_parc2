@@ -10,6 +10,10 @@ int main()
     scanf("%d", &dana);
     printf("Mjesec pocinje sa (1=Pon, 7 = Ned):");
     scanf("%d", &start);
+    if(dana>31 || dana <28 || start<1 || start>7){
+        printf("Nevazeci unos");
+        return 0;
+    }
 
     for(int i = 1; i<start+dana; i++){
         if(i<start) printf("    ");
