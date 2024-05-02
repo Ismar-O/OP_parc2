@@ -1,4 +1,4 @@
-// Osnovi Programiranja , Parcijala 2 Vjezba2/Zadatak13 Mirsad Masic
+// Osnovi Programiranja , Parcijala 2 Vjezba2/Zadatak14 Mirsad Masic
 #include<stdio.h>
 
 int check(int, int, int);
