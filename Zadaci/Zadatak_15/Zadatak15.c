@@ -1,3 +1,4 @@
+// Osnovi Programiranja , Parcijala 2 Vjezba2 / Zadatak15 Mirsad Masic
 #include<stdio.h>
 
 void float_to_round(float *);
