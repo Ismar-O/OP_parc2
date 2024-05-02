@@ -1,3 +1,4 @@
+// Osnovi Programiranja , Parcijala 2 Vjezba2 / Zadatak17 Mirsad Masic
 #include<stdio.h>
 
 void outputNumber(double, char);
