@@ -8,17 +8,28 @@ int main(){
   printf("Unesite broj: ");
   scanf("%f", &f);
   float_to_round(&f);
+  printf("%.1f", f);
   return 0;
 }
 
 void float_to_round(float *num){
   float temp = *num;
-  while(*num >= 1)
-  	--*num;
-  float remainder = *num;
-  if(remainder >= 0.5)
-    temp += remainder;
-  else
-    temp -= remainder;
-  printf("%.1f", temp);
+  float remainder;
+  if(temp > 0){
+    while(temp >= 1)
+  	  --temp;
+    remainder = temp;
+    if(remainder >= 0.5)
+      *num += 1 - remainder;
+    else
+      *num -= remainder;
+  } else{
+  	while(temp <= -1)
+  	  ++temp;
+  	remainder = temp;
+  	if(remainder <= -0.5)
+      *num -= 1 + remainder;
+    else
+      *num -= remainder;
+  }
 }
